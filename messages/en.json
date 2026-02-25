@@ -1,0 +1,75 @@
+{
+    "Common": {
+        "home": "Home",
+        "services": "Services",
+        "projects": "Projects",
+        "about": "About Us",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "Hero": {
+        "title": "Redefining Luxury Interiors",
+        "subtitle": "Bespoke fit-out and refurbishment services for London's most prestigious spaces.",
+        "cta": "Explore Projects",
+        "image_alt": "Luxury Interior Design"
+    },
+    "Services": {
+        "subtitle": "Comprehensive Architectural & Interior Solutions",
+        "items": {
+            "interior-fit-out": {
+                "title": "Interior Fit-Out",
+                "description": "High-end interior transformations for commercial and residential spaces."
+            },
+            "refurbishment": {
+                "title": "Refurbishment",
+                "description": "Bespoke refurbishment services that breathe new life into existing buildings."
+            },
+            "consultancy": {
+                "title": "Design & Consultancy",
+                "description": "Professional guidance from concept to completion."
+            }
+        }
+    },
+    "Footer": {
+        "tagline": "Crafting timeless spaces with luxury and precision in the heart of London.",
+        "quick_links": "Quick Links",
+        "contact_us": "Contact Us",
+        "address_label": "Address",
+        "address_value": "London, United Kingdom",
+        "email_label": "Email",
+        "phone_label": "Phone",
+        "rights": "All rights reserved."
+    },
+    "About": {
+        "title": "Defining the Art of Living",
+        "description_1": "ZARDI is a premier architectural and interior design firm based in the heart of London. We specialize in creating high-end, bespoke spaces that reflect the unique personality and lifestyle of our clients.",
+        "description_2": "With years of experience in luxury fit-outs and refurbishments, our team brings a meticulous eye for detail and a commitment to excellence to every project we undertake."
+    },
+    "ServicesPage": {
+        "title": "Our Expertise",
+        "subtitle": "Elevating interiors through innovative design and expert craftsmanship.",
+        "why_title": "Why Choose ZARDI?",
+        "quality_title": "Unrivaled Quality",
+        "quality_desc": "We use only the finest materials sourced from premium suppliers across Europe.",
+        "execution_title": "Seamless Execution",
+        "execution_desc": "Our management team ensures every detail is perfect, from planning to the final touch.",
+        "bespoke_title": "Bespoke Design",
+        "bespoke_desc": "Every space is a unique masterpiece tailored to your exact needs and vision."
+    },
+    "ProjectsPage": {
+        "title": "Our Portfolio",
+        "coming_soon": "Our recent projects are being curated for display. Check back soon for our latest work.",
+        "view_case_study": "View Case Study"
+    },
+    "ContactPage": {
+        "title": "Let's Talk",
+        "subtitle": "Ready to transform your space? Get in touch with our team of experts in London.",
+        "phone": "Phone",
+        "email": "Email",
+        "address": "Address",
+        "form_name": "Full Name",
+        "form_email": "Email Address",
+        "form_message": "How can we help you?",
+        "form_submit": "Send Message"
+    }
+}

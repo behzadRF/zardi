@@ -1,0 +1,75 @@
+{
+    "Common": {
+        "home": "Startseite",
+        "services": "Dienstleistungen",
+        "projects": "Projekte",
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "language": "Sprache"
+    },
+    "Hero": {
+        "title": "Luxus-Interieurs neu definiert",
+        "subtitle": "Maßgeschneiderte Ausbau- und Modernisierungsleistungen für Londons prestigeträchtigste Räume.",
+        "cta": "Projekte erkunden",
+        "image_alt": "Luxuriöses Innendesign"
+    },
+    "Services": {
+        "subtitle": "Umfassende Architektur- und Innenraumlösungen",
+        "items": {
+            "interior-fit-out": {
+                "title": "Innenausbau",
+                "description": "Hochwertige Innenraumtransformationen für Gewerbe- und Wohnräume."
+            },
+            "refurbishment": {
+                "title": "Sanierung",
+                "description": "Maßgeschneiderte Sanierungsdienstleistungen, die bestehenden Gebäuden neues Leben einhauchen."
+            },
+            "consultancy": {
+                "title": "Design & Beratung",
+                "description": "Professionelle Begleitung vom Konzept bis zur Fertigstellung."
+            }
+        }
+    },
+    "Footer": {
+        "tagline": "Zeitlose Räume mit Luxus und Präزision im Herzen von London schaffen.",
+        "quick_links": "Schnellzugriff",
+        "contact_us": "Kontaktieren Sie uns",
+        "address_label": "Adresse",
+        "address_value": "London, Vereinigtes Königreich",
+        "email_label": "E-Mail",
+        "phone_label": "Telefon",
+        "rights": "Alle Rechte vorbehalten."
+    },
+    "About": {
+        "title": "Die Kunst des Wohnens definieren",
+        "description_1": "ZARDI ist ein führendes Architektur- und Innenarchitekturbüro im Herzen von London. Wir sind darauf spezialisiert, luxuriöse, maßgeschneiderte Räume zu schaffen, die die einzigartige Persönlichkeit und den Lebensstil unserer Kunden widerspiegeln.",
+        "description_2": "Mit jahrelanger Erfahrung in luxuriösen Ausbauten und Sanierungen bringt unser Team für jedes Projekt, das wir übernehmen, einen akribischen Blick für Details und ein Engagement für Exzellenz mit."
+    },
+    "ServicesPage": {
+        "title": "Unsere Expertise",
+        "subtitle": "Interieurs durch innovatives Design und handwerkliches Können aufwerten.",
+        "why_title": "Warum ZARDI wählen?",
+        "quality_title": "Unübertroffene Qualität",
+        "quality_desc": "Wir verwenden nur die feinsten Materialien von erstklassigen Lieferanten aus ganz Europa.",
+        "execution_title": "Nahtlose Ausführung",
+        "execution_desc": "Unser Managementteam sorgt dafür, dass jedes Detail perfekt ist, von der Planung bis zum letzten Schliff.",
+        "bespoke_title": "Maßgeschneidertes Design",
+        "bespoke_desc": "Jeder Raum ist ein einzigartiges Meisterwerk, das genau auf Ihre Bedürfnisse und Vision zugeschnitten ist."
+    },
+    "ProjectsPage": {
+        "title": "Unser Portfolio",
+        "coming_soon": "Unsere jüngsten Projekte werden derzeit für die Ausstellung aufbereitet. Schauen Sie bald wieder vorbei, um unsere neuesten Arbeiten zu sehen.",
+        "view_case_study": "Fallstudie ansehen"
+    },
+    "ContactPage": {
+        "title": "Lassen Sie uns reden",
+        "subtitle": "Bereit, Ihren Raum zu transformieren? Kontaktieren Sie unser Expertenteam in London.",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "address": "Adresse",
+        "form_name": "Vollständiger Name",
+        "form_email": "E-Mail-Adresse",
+        "form_message": "Wie können wir Ihnen helfen?",
+        "form_submit": "Nachricht senden"
+    }
+}
