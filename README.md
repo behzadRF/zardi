@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zardi 🚀
 
-## Getting Started
+This project is a modern web application built with [Next.js](https://nextjs.org/) and optimized with the `next/font` for the best user experience.
 
-First, run the development server:
+## 🛠️ Getting Started
 
-```bash
+To get a local copy up and running, follow these simple steps:
+
+## Clone the repository:
+git clone [https://github.com/behzadRF/zardi.git](https://github.com/behzadRF/zardi.git)
+
+## Navigate to the project directory and install dependencies:
+
+cd zardi
+npm install
+
+## Run the development server:
+
 npm run dev
-# or
+#or
 yarn dev
-# or
+#or
 pnpm dev
-# or
+#or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👨‍💻 About the Author
+Hi there! 👋 I'm Behzad, a passionate software developer. I love turning complex problems into simple, beautiful, and intuitive code. When I'm not coding or learning new technologies, I enjoy building projects like this one to challenge myself and improve my skills.
 
-## Learn More
+GitHub: @behzadRF
 
-To learn more about Next.js, take a look at the following resources:
+Email: iii01yar@gmail.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to reach out if you have any questions, want to collaborate, or just want to say hi!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
