@@ -8,12 +8,14 @@ export default function Footer() {
     const t = useTranslations("Common");
     const tFooter = useTranslations("Footer");
     const currentYear = new Date().getFullYear();
-    const phoneNumber = "07916363315";
+    const phoneNumber = "07534644710";
+    const landline = "02071014710";
 
     const navItems = [
         { name: t("home"), href: "/" },
         { name: t("services"), href: "/services" },
         { name: t("projects"), href: "/projects" },
+        { name: t("virtual_tours"), href: "/virtual-tours" },
         { name: t("about"), href: "/about" },
         { name: t("contact"), href: "/contact" },
     ];
@@ -92,9 +94,14 @@ export default function Footer() {
                                     </div>
                                     <div>
                                         <p className="text-xs font-bold text-gray-400 uppercase mb-1">{tFooter("phone_label")}</p>
-                                        <a href={`tel:${phoneNumber}`} className="text-gray-900 font-medium hover:text-black transition-colors">
-                                            {phoneNumber}
-                                        </a>
+                                        <div className="flex flex-col gap-1">
+                                            <a href={`tel:${phoneNumber}`} className="text-gray-900 font-medium hover:text-black transition-colors">
+                                                {phoneNumber}
+                                            </a>
+                                            <a href={`tel:${landline}`} className="text-gray-900 font-medium hover:text-black transition-colors">
+                                                {landline}
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +111,7 @@ export default function Footer() {
 
                 <div className="pt-10 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-sm text-gray-400">
-                        © {currentYear} ZARDI. {tFooter("rights")}
+                        © {currentYear} ZARDI. {tFooter("rights")} | {tFooter("designed_with_heart")}
                     </p>
                     <div className="flex gap-8">
                         <Link href="/privacy" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">

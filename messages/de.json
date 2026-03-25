@@ -5,6 +5,7 @@
         "projects": "Projekte",
         "about": "Über uns",
         "contact": "Kontakt",
+        "virtual_tours": "3D-Touren",
         "language": "Sprache"
     },
     "Hero": {
@@ -38,7 +39,8 @@
         "address_value": "London, Vereinigtes Königreich",
         "email_label": "E-Mail",
         "phone_label": "Telefon",
-        "rights": "Alle Rechte vorbehalten."
+        "rights": "Alle Rechte vorbehalten.",
+        "designed_with_heart": "Mit Herz entworfen"
     },
     "About": {
         "title": "Die Kunst des Wohnens definieren",
@@ -71,5 +73,19 @@
         "form_email": "E-Mail-Adresse",
         "form_message": "Wie können wir Ihnen helfen?",
         "form_submit": "Nachricht senden"
+    },
+    "VirtualToursPage": {
+        "title": "3D Virtuelle Touren",
+        "subtitle": "Tauchen Sie ein in unsere sorgfältig gestalteten Räume durch hochauflösende 3D-Rundgänge.",
+        "view_tour": "Tour ansehen",
+        "back_to_list": "Zurück zur Galerie"
+    },
+    "PrivacyPage": {
+        "title": "Datenschutzerklärung",
+        "content": "Ihre Privatsphäre ist uns wichtig. Es ist die Politik von ZARDI, Ihre Privatsphäre in Bezug auf alle Informationen zu respektieren, die wir über unsere Website von Ihnen sammeln."
+    },
+    "TermsPage": {
+        "title": "Nutzungsbedingungen",
+        "content": "Durch den Zugriff auf unsere Website erklären Sie sich damit einverstanden, an diese Nutzungsbedingungen sowie an alle geltenden Gesetze und Vorschriften gebunden zu sein."
     }
 }

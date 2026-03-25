@@ -9,7 +9,8 @@ import Image from "next/image";
 
 export default function ContactPage() {
     const t = useTranslations("ContactPage");
-    const phoneNumber = "07916363315";
+    const phoneNumber = "07534644710";
+    const landline = "02071014710";
 
     return (
         <main className="min-h-screen bg-white">
@@ -56,9 +57,14 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">{t("phone")}</p>
-                                        <a href={`tel:${phoneNumber}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
-                                            {phoneNumber}
-                                        </a>
+                                        <div className="flex flex-col gap-2">
+                                            <a href={`tel:${phoneNumber}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
+                                                {phoneNumber}
+                                            </a>
+                                            <a href={`tel:${landline}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
+                                                {landline}
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-6 group cursor-pointer">

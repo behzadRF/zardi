@@ -12,7 +12,7 @@ export default function Header() {
     const t = useTranslations("Common");
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const phoneNumber = "07916363315";
+    const phoneNumber = "07534644710";
 
     useEffect(() => {
         const handleScroll = () => {
@@ -38,6 +38,7 @@ export default function Header() {
         { name: t("home"), href: "/" },
         { name: t("services"), href: "/services" },
         { name: t("projects"), href: "/projects" },
+        { name: t("virtual_tours"), href: "/virtual-tours" },
         { name: t("about"), href: "/about" },
         { name: t("contact"), href: "/contact" },
     ];

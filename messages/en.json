@@ -5,6 +5,7 @@
         "projects": "Projects",
         "about": "About Us",
         "contact": "Contact",
+        "virtual_tours": "3D Tours",
         "language": "Language"
     },
     "Hero": {
@@ -38,7 +39,8 @@
         "address_value": "London, United Kingdom",
         "email_label": "Email",
         "phone_label": "Phone",
-        "rights": "All rights reserved."
+        "rights": "All rights reserved.",
+        "designed_with_heart": "Designed with heart"
     },
     "About": {
         "title": "Defining the Art of Living",
@@ -71,5 +73,19 @@
         "form_email": "Email Address",
         "form_message": "How can we help you?",
         "form_submit": "Send Message"
+    },
+    "VirtualToursPage": {
+        "title": "3D Virtual Tours",
+        "subtitle": "Immerse yourself in our meticulously crafted spaces through high-definition 3D walkthroughs.",
+        "view_tour": "View Tour",
+        "back_to_list": "Back to Gallery"
+    },
+    "PrivacyPage": {
+        "title": "Privacy Policy",
+        "content": "Your privacy is important to us. It is ZARDI's policy to respect your privacy regarding any information we may collect from you across our website."
+    },
+    "TermsPage": {
+        "title": "Terms of Service",
+        "content": "By accessing our website, you are agreeing to be bound by these terms of service, all applicable laws and regulations."
     }
 }
