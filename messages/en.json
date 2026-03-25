@@ -82,10 +82,12 @@
     },
     "PrivacyPage": {
         "title": "Privacy Policy",
-        "content": "Your privacy is important to us. It is ZARDI's policy to respect your privacy regarding any information we may collect from you across our website."
+        "content_1": "At ZARDI, we prioritize the confidentiality and security of our clients' data. This policy outlines how we handle personal information with the highest standards of professional integrity.",
+        "content_2": "We collect information solely to improve our architectural and interior design services. Any data provided through our contact forms is encrypted and never shared with unauthorized third parties."
     },
     "TermsPage": {
         "title": "Terms of Service",
-        "content": "By accessing our website, you are agreeing to be bound by these terms of service, all applicable laws and regulations."
+        "content_1": "By engaging with ZARDI's website and services, you agree to respect our intellectual property rights and the creative integrity of our architectural designs.",
+        "content_2": "All project visualizations, plans, and 3D tours presented on this site are protected by copyright. Unauthorized reproduction or use of these materials is strictly prohibited."
     }
 }
