@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Phone, Mail, MapPin, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Linkedin, Twitter, Heart } from "lucide-react";
 
 export default function Footer() {
     const t = useTranslations("Common");
@@ -110,8 +110,8 @@ export default function Footer() {
                 </div>
 
                 <div className="pt-10 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-6">
-                    <p className="text-sm text-gray-400">
-                        © {currentYear} ZARDI. {tFooter("rights")} | {tFooter("designed_with_heart")}
+                    <p className="text-sm text-gray-400 flex items-center gap-1">
+                        © {currentYear} ZARDI. {tFooter("rights")} | {tFooter("designed_with")} <Heart className="w-3.5 h-3.5 fill-red-500 text-red-500 inline" />
                     </p>
                     <div className="flex gap-8">
                         <Link href="/privacy" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">
