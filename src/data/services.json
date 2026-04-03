@@ -1,0 +1,17 @@
+[
+    {
+        "id": "interior-fit-out",
+        "title": "Interior Fit-Out",
+        "description": "High-end interior transformations for commercial and residential spaces."
+    },
+    {
+        "id": "refurbishment",
+        "title": "Refurbishment",
+        "description": "Bespoke refurbishment services that breathe new life into existing buildings."
+    },
+    {
+        "id": "consultancy",
+        "title": "Design & Consultancy",
+        "description": "Professional guidance from concept to completion."
+    }
+]
