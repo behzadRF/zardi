@@ -9,7 +9,7 @@
         "language": "Language"
     },
     "Hero": {
-        "title": "Redefining Luxury Interiors",
+        "title": "Commercial Office Maintenance & Repairs in Central London",
         "subtitle": "Bespoke fit-out and refurbishment services for London's most prestigious spaces.",
         "cta": "Explore Projects",
         "image_alt": "Luxury Interior Design"
@@ -61,7 +61,9 @@
     "ProjectsPage": {
         "title": "Our Portfolio",
         "coming_soon": "Our recent projects are being curated for display. Check back soon for our latest work.",
-        "view_case_study": "View Case Study"
+        "view_case_study": "View Case Study",
+        "view_tour": "View 3D Model",
+        "back_to_list": "Back to Portfolio"
     },
     "ContactPage": {
         "title": "Let's Talk",

@@ -2,20 +2,19 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Phone, Mail, MapPin, Instagram, Linkedin, Twitter, Heart } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Linkedin, MessageCircle, Heart } from "lucide-react";
+import siteConfig from "@/data/site-config.json";
 
 export default function Footer() {
     const t = useTranslations("Common");
     const tFooter = useTranslations("Footer");
     const currentYear = new Date().getFullYear();
-    const phoneNumber = "07534644710";
-    const landline = "02071014710";
+    const { contact, socials } = siteConfig;
 
     const navItems = [
         { name: t("home"), href: "/" },
         { name: t("services"), href: "/services" },
         { name: t("projects"), href: "/projects" },
-        { name: t("virtual_tours"), href: "/virtual-tours" },
         { name: t("about"), href: "/about" },
         { name: t("contact"), href: "/contact" },
     ];
@@ -33,14 +32,14 @@ export default function Footer() {
                             {tFooter("tagline")}
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all">
+                            <a href={socials.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all">
                                 <Instagram className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all">
+                            <a href={socials.linkedin} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all">
                                 <Linkedin className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all">
-                                <Twitter className="w-5 h-5" />
+                            <a href={socials.whatsapp} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-100 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white transition-all">
+                                <MessageCircle className="w-5 h-5" />
                             </a>
                         </div>
                     </div>
@@ -74,7 +73,7 @@ export default function Footer() {
                                     </div>
                                     <div>
                                         <p className="text-xs font-bold text-gray-400 uppercase mb-1">{tFooter("address_label")}</p>
-                                        <p className="text-gray-900 font-medium">{tFooter("address_value")}</p>
+                                        <p className="text-gray-900 font-medium">{contact.address}</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -83,7 +82,7 @@ export default function Footer() {
                                     </div>
                                     <div>
                                         <p className="text-xs font-bold text-gray-400 uppercase mb-1">{tFooter("email_label")}</p>
-                                        <p className="text-gray-900 font-medium">info@zardi.co.uk</p>
+                                        <p className="text-gray-900 font-medium">{contact.email}</p>
                                     </div>
                                 </div>
                             </div>
@@ -95,11 +94,11 @@ export default function Footer() {
                                     <div>
                                         <p className="text-xs font-bold text-gray-400 uppercase mb-1">{tFooter("phone_label")}</p>
                                         <div className="flex flex-col gap-1">
-                                            <a href={`tel:${phoneNumber}`} className="text-gray-900 font-medium hover:text-black transition-colors">
-                                                {phoneNumber}
+                                            <a href={`tel:${contact.mobile}`} className="text-gray-900 font-medium hover:text-black transition-colors">
+                                                {contact.mobile}
                                             </a>
-                                            <a href={`tel:${landline}`} className="text-gray-900 font-medium hover:text-black transition-colors">
-                                                {landline}
+                                            <a href={`tel:${contact.phone}`} className="text-gray-900 font-medium hover:text-black transition-colors">
+                                                {contact.phone}
                                             </a>
                                         </div>
                                     </div>

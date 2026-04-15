@@ -6,11 +6,11 @@ import { useTranslations } from "next-intl";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import siteConfig from "@/data/site-config.json";
 
 export default function ContactPage() {
     const t = useTranslations("ContactPage");
-    const phoneNumber = "07534644710";
-    const landline = "02071014710";
+    const { contact } = siteConfig;
 
     return (
         <main className="min-h-screen bg-white">
@@ -58,11 +58,11 @@ export default function ContactPage() {
                                     <div>
                                         <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">{t("phone")}</p>
                                         <div className="flex flex-col gap-2">
-                                            <a href={`tel:${phoneNumber}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
-                                                {phoneNumber}
+                                            <a href={`tel:${contact.mobile}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
+                                                {contact.mobile}
                                             </a>
-                                            <a href={`tel:${landline}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
-                                                {landline}
+                                            <a href={`tel:${contact.phone}`} className="text-3xl font-bold text-black hover:text-gray-500 transition-colors">
+                                                {contact.phone}
                                             </a>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">{t("email")}</p>
-                                        <p className="text-3xl font-bold text-black group-hover:text-gray-600 transition-colors">info@zardi.co.uk</p>
+                                        <p className="text-3xl font-bold text-black group-hover:text-gray-600 transition-colors">{contact.email}</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-6 group cursor-pointer">
@@ -82,7 +82,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">{t("address")}</p>
-                                        <p className="text-3xl font-bold text-black group-hover:text-gray-600 transition-colors">London, United Kingdom</p>
+                                        <p className="text-3xl font-bold text-black group-hover:text-gray-600 transition-colors font-sans">{contact.address}</p>
                                     </div>
                                 </div>
                             </div>

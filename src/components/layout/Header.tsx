@@ -7,12 +7,14 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
+import siteConfig from "@/data/site-config.json";
 
 export default function Header() {
     const t = useTranslations("Common");
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const phoneNumber = "07534644710";
+    const { contact } = siteConfig;
+    const phoneNumber = contact.mobile;
 
     useEffect(() => {
         const handleScroll = () => {
@@ -38,7 +40,6 @@ export default function Header() {
         { name: t("home"), href: "/" },
         { name: t("services"), href: "/services" },
         { name: t("projects"), href: "/projects" },
-        { name: t("virtual_tours"), href: "/virtual-tours" },
         { name: t("about"), href: "/about" },
         { name: t("contact"), href: "/contact" },
     ];
