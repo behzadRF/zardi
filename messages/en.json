@@ -73,6 +73,7 @@
         "address": "Address",
         "form_name": "Full Name",
         "form_email": "Email Address",
+        "form_phone": "Phone Number",
         "form_message": "How can we help you?",
         "form_submit": "Send Message"
     },

@@ -7,6 +7,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import siteConfig from "@/data/site-config.json";
+import ContactForm from "@/components/features/ContactForm";
 
 export default function ContactPage() {
     const t = useTranslations("ContactPage");
@@ -88,30 +89,7 @@ export default function ContactPage() {
                             </div>
                         </motion.div>
 
-                        <motion.div
-                            initial={{ opacity: 0, x: 50 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            className="bg-gray-50 p-10 md:p-16 rounded-[48px] shadow-sm border border-gray-100 relative overflow-hidden"
-                        >
-                            <form className="space-y-8 relative z-10">
-                                <div className="space-y-3">
-                                    <label className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 ml-2">{t("form_name")}</label>
-                                    <input type="text" className="w-full bg-white border border-gray-100 rounded-2xl p-6 text-lg text-black focus:ring-2 focus:ring-black transition-all outline-none" />
-                                </div>
-                                <div className="space-y-3">
-                                    <label className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 ml-2">{t("form_email")}</label>
-                                    <input type="email" className="w-full bg-white border border-gray-100 rounded-2xl p-6 text-lg text-black focus:ring-2 focus:ring-black transition-all outline-none" />
-                                </div>
-                                <div className="space-y-3">
-                                    <label className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 ml-2">{t("form_message")}</label>
-                                    <textarea rows={4} className="w-full bg-white border border-gray-100 rounded-2xl p-6 text-lg text-black focus:ring-2 focus:ring-black transition-all outline-none resize-none" />
-                                </div>
-                                <button className="w-full bg-black text-white py-6 rounded-2xl font-bold text-xl hover:bg-gray-800 transition-all active:scale-[0.98] shadow-lg">
-                                    {t("form_submit")}
-                                </button>
-                            </form>
-                        </motion.div>
+                        <ContactForm />
                     </div>
                 </div>
             </section>

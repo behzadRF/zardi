@@ -72,8 +72,9 @@
         "email": "ایمیل",
         "address": "آدرس",
         "form_name": "نام کامل",
-        "form_email": "آدرس ایمیل",
-        "form_message": "چگونه می‌توانیم به شما کمک کنیم؟",
+        "form_email": "نشانی ایمیل",
+        "form_phone": "شماره تماس",
+        "form_message": "چطور می‌توانیم به شما کمک کنیم؟",
         "form_submit": "ارسال پیام"
     },
     "VirtualToursPage": {
